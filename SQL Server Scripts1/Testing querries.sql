@@ -1,12 +1,8 @@
-------------------------------------------
--- Basic Queries
-------------------------------------------
--- Get all people
+
 USE RealEstate;
 
 SELECT * FROM Person;
 
--- Get all employees (with Person info joined)
 SELECT E.EmployeeID,
        P.[Name],
        P.Surname,
@@ -16,20 +12,12 @@ FROM Employee AS E
 JOIN Person AS P
   ON E.FK_Person = P.PersonID;
 
--- Get all properties
 SELECT * FROM Property;
 
--- Get all sales
 SELECT * FROM PropertySale;
 
--- Get all acquisitions
 SELECT * FROM PropertyAcquisition;
 
-
-------------------------------------------
--- More Advanced Joins
-------------------------------------------
--- Show each sale with property address and salesman name
 SELECT PS.SaleID,
        PS.SalePrice,
        PS.SaleDate,
@@ -43,7 +31,7 @@ JOIN Employee AS E
 JOIN Person AS P
   ON E.FK_Person = P.PersonID;
 
--- Show each acquisition with property address and employee name
+
 SELECT PA.BoughtID,
        PA.BuyingPrice,
        PA.BuyingDate,
