@@ -1,7 +1,7 @@
 
 USE RealEstate;
 
-SELECT * FROM Person;
+SELECT * FROM Property;
 
 SELECT E.EmployeeID,
        P.[Name],

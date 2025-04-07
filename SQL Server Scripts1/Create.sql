@@ -28,7 +28,9 @@ CREATE TABLE Property (
     PropertyID      INT		PRIMARY KEY NOT NULL,
     Amenities       VARCHAR(1000),
     Address         VARCHAR(100),
+	District		VARCHAR(20),
     [Type]          VARCHAR(20),
+	size			INT,
     Price           DECIMAL(10,2),
 );
 GO
