@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server Scripts2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MARIUSZ:MARIUSZ\mgodl">
+          <Created>2025-04-10T13:46:28.4374142+02:00</Created>
+          <Type>SQL</Type>
+          <Server>MARIUSZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Contet reset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Contet reset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Do not touch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Do not touch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop helper.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Drop helper.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_CampaignMethod.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_CampaignMethod.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_Junk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_Junk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_MarketingCampaign.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_MarketingCampaign.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_Method.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_Method.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_Property.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_Property.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Helper.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Helper.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert holidays.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert holidays.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert vacations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert vacations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RealEstate Alteration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RealEstate Alteration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts Date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Scripts Date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MARIUSZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MARIUSZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

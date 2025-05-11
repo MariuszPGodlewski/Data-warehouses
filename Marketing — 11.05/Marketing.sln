@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Marketing", "Marketing.dwproj", "{4EED2517-F464-B622-2D12-0AFB06166C22}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "LoadETL", "..\LoadETL\LoadETL.dtproj", "{6F68A654-A634-5434-4719-FDBCDA87181A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EED2517-F464-B622-2D12-0AFB06166C22}.Development|Default.ActiveCfg = Development
+		{4EED2517-F464-B622-2D12-0AFB06166C22}.Development|Default.Build.0 = Development
+		{4EED2517-F464-B622-2D12-0AFB06166C22}.Development|Default.Deploy.0 = Development
+		{6F68A654-A634-5434-4719-FDBCDA87181A}.Development|Default.ActiveCfg = Development
+		{6F68A654-A634-5434-4719-FDBCDA87181A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2288BA6-5275-4162-A4AC-4D8CD399E5A4}
+	EndGlobalSection
+EndGlobal
