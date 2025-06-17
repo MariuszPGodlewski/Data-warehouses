@@ -1,0 +1,228 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1f9de616-baed-41be-b1d1-6874dd422d1a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Marketing Campaign</ID>
+  <Name>Dim Marketing Campaign</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3393" scrolltop="-2845" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7474" y="14380" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MarketingCampaign" left="-3010" top="1270" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5689" height="6958" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000391600002e1b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_MarketingCampaign" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3393</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2845</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3010</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>1270</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d239173c-31ce-4ef2-a123-d493c411ab82">
+    <DataSourceViewID>DW MARKETING</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="86bf16e3-4e78-4855-8b6a-009d3a87ceca">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="46bd01f5-247d-4030-9eda-ba0c195eccf3">
+      <ID>Campaign ID</ID>
+      <Name>Campaign ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7f49c400-a8b4-44ab-bfd7-598fd646bee6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f76cfe68-b633-42d3-b808-156f1fd97007">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Campaign_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a02e4e26-6810-417f-b897-db45f25ebb92">
+          <AttributeID>Property ID</AttributeID>
+          <Name>Property ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="faf85263-6905-4e60-b0f1-d7be49ee50ef">
+          <AttributeID>Junk ID</AttributeID>
+          <Name>Junk ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="65b3f31e-ea56-4bf3-a8eb-1924f4811d61">
+          <AttributeID>Sale Date</AttributeID>
+          <Name>Sale Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b45859ca-c6a2-4b1f-80f4-1fec9b9662f9">
+          <AttributeID>Acquisition Date</AttributeID>
+          <Name>Acquisition Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c757bd23-72c8-4224-9fcd-379909171e4b">
+          <AttributeID>Campaign Start Date ID</AttributeID>
+          <Name>Campaign Start Date ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fed21b25-207b-4f95-a6b8-772cadee1595">
+          <AttributeID>Campaign End Date ID</AttributeID>
+          <Name>Campaign End Date ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f42ee65d-f42b-4645-8213-39487376aca8">
+      <ID>Property ID</ID>
+      <Name>Property ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="03a20c22-73b8-4925-8d53-bec1fc97be36">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16fb4930-37d5-4540-8c41-0dc7ba7480f2">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Property_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="abab4860-3229-4f6c-9b7f-2b9e50d7befa">
+      <ID>Junk ID</ID>
+      <Name>Junk ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2022ffcf-1771-4624-9df3-7589d93bfa66">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8cf2b60-0e76-4c91-87c0-1e474e0cfc85">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Junk_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="87d0806a-745a-4888-bac5-f97dc6f114b0">
+      <ID>Sale Date</ID>
+      <Name>Sale Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5fe52507-f950-46ae-a613-137e282cb32d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b019e344-fd6d-4faf-864f-7bcb429e25a4">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Sale_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21a71260-5214-49a3-8872-62028faf0a73">
+      <ID>Acquisition Date</ID>
+      <Name>Acquisition Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4cb540b-ef51-4809-b477-1ca5014484d8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="61fd5fad-525d-4075-a02a-0d39cc86258f">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Acquisition_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a1b1767-b02b-4ffa-a027-c8d2941ec116">
+      <ID>Campaign Start Date ID</ID>
+      <Name>Campaign Start Date ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af63fce2-37ac-44eb-ad0b-9e25d08f14a3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c666b604-d567-4663-8acf-90b71ef8921b">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Campaign_Start_Date_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3a23785-b7e4-4183-8a91-1aeeef2a6f50">
+      <ID>Campaign End Date ID</ID>
+      <Name>Campaign End Date ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eeae55a8-dd6c-482e-925d-e74425ecf0a5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc985219-96fc-4ad8-8063-2a72e9c102c4">
+            <TableID>dbo_MarketingCampaign</TableID>
+            <ColumnID>Campaign_End_Date_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

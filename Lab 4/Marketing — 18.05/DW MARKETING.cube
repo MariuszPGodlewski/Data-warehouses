@@ -1,0 +1,1070 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c82ee91a-c580-4f9d-b0c0-d4e910d259af" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW MARKETING</ID>
+  <Name>DW MARKETING</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1230" scrolltop="788" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="17529" y="12581" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CampaignMethods" left="20" top="10928" logicalid="15" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1847" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000037070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CampaignMethods" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MarketingCampaign" left="5420" top="7400" logicalid="16" controlid="2" masterid="0" hint1="0" hint2="0" width="5517" height="5829" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008d150000c5160000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_MarketingCampaign" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDate" left="6564" top="0" logicalid="17" controlid="3" masterid="0" hint1="0" hint2="0" width="3228" height="5877" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009c0c0000f5160000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Junk" left="6678" top="14800" logicalid="18" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Junk" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Property" left="13337" top="8822" logicalid="19" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2156" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006c080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Property" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Method" left="20" top="7060" logicalid="20" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Method" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6679" top="5378" logicalid="21" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="2322" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Sale___61516785]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7078" y="5877" />
+              <point x="7078" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6679" top="12929" logicalid="22" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="2371" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Junk___62458BBE]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7078" y="14800" />
+              <point x="7078" y="13229" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10637" top="8914" logicalid="23" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="836" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Prope__5D80D6A1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="10" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13337" y="9350" />
+              <point x="12137" y="9350" />
+              <point x="12137" y="9214" />
+              <point x="10937" y="9214" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8329" top="5378" logicalid="24" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="2322" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Campa__5E74FADA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8728" y="5877" />
+              <point x="8728" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7779" top="5378" logicalid="25" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2322" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Campa__5F691F13]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="5" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8178" y="5877" />
+              <point x="8178" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7229" top="5378" logicalid="26" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="2322" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Marketing__Acqui__605D434C]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="3" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7628" y="5877" />
+              <point x="7628" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="11001" logicalid="27" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="813" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__CampaignM__Campa__6521F869]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="32" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5420" y="11414" />
+              <point x="4220" y="11414" />
+              <point x="4220" y="11301" />
+              <point x="3020" y="11301" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21" top="8029" logicalid="28" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__CampaignM__Metho__66161CA2]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="420" y="8528" />
+              <point x="420" y="10928" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>1230</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>788</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>95</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ea4f5b74-6214-4d9a-8ed7-727706a1fe2e">
+      <ID>Method</ID>
+      <Name>Method</Name>
+      <DimensionID>Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6ad187a0-78d9-497b-aa0a-600a6caffeb5">
+          <AttributeID>Method ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e4467b2-b5a7-4d16-a883-a8da16fb68fb">
+          <AttributeID>Method Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="63a09c4e-74df-4d08-aa2c-27e5c872f7d4">
+      <ID>Property</ID>
+      <Name>Property</Name>
+      <DimensionID>Property</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="23a4bf57-cfeb-4964-8550-fc6fe6e4da9e">
+          <AttributeID>Property ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e906ba1a-c922-44cc-8207-04bd9a44e622">
+          <AttributeID>Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0dba992a-3290-43d8-b19f-6950be3126ec">
+          <AttributeID>Size</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe638580-ea01-4d14-ac3e-60639b2db910">
+          <AttributeID>Listing Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94ddd303-56c8-47d2-ad72-7d96bc613178">
+          <AttributeID>Physical Property Id</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="47fd7521-b29e-41a4-bc57-783370f0ef74">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="de41bd43-65a1-40c5-89a9-541b5fc3d1d1">
+      <ID>Junk</ID>
+      <Name>Junk</Name>
+      <DimensionID>Junk</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3ed40cf6-6b0d-4d08-85d4-62aeca6bb846">
+          <AttributeID>Junk ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e0842598-75ac-45d5-9563-a98fc684bff5">
+          <AttributeID>Days To Sale</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="00c4ef50-71a5-4895-8036-23ba806fcb2e">
+      <ID>Sale Date</ID>
+      <Name>Sale Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="500e2136-bf97-49ab-aeb8-5690384e12cb">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d15dd21d-9639-4b0b-830e-47c799db432b">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c58b9279-99ac-464f-8452-15ace719193b">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57872813-71ff-40f1-a3f8-135241e805f9">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ec884c5-9b4c-445e-b6a4-8c0a1bdf36b5">
+          <AttributeID>Month Number</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c99bce2-1aef-4230-b6dd-ae7c706c4ec6">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7333d95c-d7c5-45cf-8e53-e22f5d1e04b0">
+          <AttributeID>Day Of Week N</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e84de20-9e17-4640-9dee-99556f2ad5d6">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5985c295-445a-435f-80a1-487a0ccd3c75">
+          <AttributeID>Season</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a783e9e5-f4c2-4a14-889e-316b2fae9e5c">
+          <AttributeID>Working Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39a4de11-8fe7-4e29-8f76-06e0b18a917c">
+          <AttributeID>Vacation</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="217cefce-4651-4cfd-a5c0-0d5b5968495a">
+          <AttributeID>Holiday</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="048d8cd5-d0ad-4c86-b5fe-9bcb9841f9d2">
+          <AttributeID>Before Holiday Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33597dfd-cb14-4511-977e-142e20e0722d">
+          <AttributeID>After Holiday Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d44c9d2d-c0de-47c0-9289-bffcb98e670d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ca70108b-23a2-48e5-a316-5810fbfb9e6b">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="415b35c9-1471-4c4b-a408-1eebf659ca55">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="6c065e7f-89e4-4439-9170-4256b1fbb15c">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="7a19fa9f-4ee3-44d9-b129-53c0bb293ffc">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d245bec9-1158-4d67-8d50-760bf2be22d5">
+      <ID>Acquisition Date</ID>
+      <Name>Acquisition Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e222b475-4477-4135-8ad9-d4303de40055">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b6e4002-9ea5-4b9e-9c70-7dcb641ac1b1">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94084a56-c629-4fb0-8ddd-d23e3965f5fb">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e98ae4c-9c19-4805-8e3d-d123a1a95bd0">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb61bbea-5d09-4d50-8408-ded169acf6ec">
+          <AttributeID>Month Number</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="ffbc1ca3-2f7d-4f8f-b94b-a2b6fa9f4eb5">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38b77e31-b372-4d29-ae2f-6617691556ab">
+          <AttributeID>Day Of Week N</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="27b2b234-3d97-44da-8b68-08f636afca47">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d0d4cc8-948e-4339-a714-d39446ecf146">
+          <AttributeID>Season</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81804fd9-e2d9-4e08-86dc-01f719546e31">
+          <AttributeID>Working Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be04cc95-cda1-47d6-8d36-4099c25030a1">
+          <AttributeID>Vacation</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df1726b4-d111-404e-a8b2-053b389ed1ab">
+          <AttributeID>Holiday</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dce2d2b6-00c8-4aaf-8d4e-3b50d8fc5719">
+          <AttributeID>Before Holiday Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ffc53fb3-1daf-4c1f-a884-09b5cdeabc5c">
+          <AttributeID>After Holiday Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3572a535-264f-4bb3-9623-98757cd43c01">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="13efabe7-f8c3-4163-b6d2-46e1c9e152df">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="6a7cf2ec-2031-48c8-8a43-e01d32ca3137">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="3a75e483-0784-454b-8205-e7c5b4cb584a">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="39dc0ba6-b1ee-467a-82b6-9e26dc49e259">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b5adaf4b-dc1a-4504-81fc-7720e81b3077">
+      <ID>Campaign Start Date</ID>
+      <Name>Campaign Start Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="90f7bac1-7e11-4979-9c3f-59ce42e86880">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="203fcb71-dcb6-497d-a922-d93915b75c89">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d8c51ba-6ab0-4ef7-9ed3-30d36c92ca8d">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9cebb1b6-20f5-4309-aff0-1603f12ad095">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ca42d97-e16f-42bc-94ee-8c0736c9b039">
+          <AttributeID>Month Number</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="5329aa10-2ded-4639-8fee-c97f9c47ded7">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc66aab4-5d71-40ba-a42f-fe93d28a94e3">
+          <AttributeID>Day Of Week N</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9a98bad-e0e6-49a6-878e-48cbda15a1ea">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87a07662-e20f-440d-9857-7f3e3470dd77">
+          <AttributeID>Season</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f72311ec-e0ed-41e0-8ef1-b85fa03cefaa">
+          <AttributeID>Working Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ac7fd80-d258-46fe-b7a5-949eaceae50b">
+          <AttributeID>Vacation</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e6198a8-4870-43ef-9182-7ffb75339a70">
+          <AttributeID>Holiday</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45113aa8-f8a2-4e67-995d-75c1c1da66f6">
+          <AttributeID>Before Holiday Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8c235929-d8eb-4c32-a286-20a2fb92d371">
+          <AttributeID>After Holiday Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="eef55ed4-9d46-4d7d-b6ba-900b6c393520">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="fe6c9fd7-f1b0-4d12-90c1-69b3f3ac3eb5">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="fc038bd1-80fc-4562-9275-e2b0413c9210">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="3b28790f-faef-4c24-88cc-a28beba56afd">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="187ecf5d-677a-47db-a56e-5459663380bc">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="6bde2fb1-8c7d-4a2e-9f1f-a0266c7a2573">
+      <ID>Campaign End Date</ID>
+      <Name>Campaign End Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0c015251-31ab-4b8d-a75e-4346fbc60d52">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b25b4f53-fcda-4180-8e26-98539c266bbe">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfc80376-68a7-4381-bbe4-c34ed0869880">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e61a284-73f7-45fc-987c-f84d65aebcf7">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3130036-26ed-4845-ba67-1789a7bd4f64">
+          <AttributeID>Month Number</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="34eb0dfe-8e73-4eab-b6ee-4bec31956259">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72fab57b-fb56-4667-83df-a1dcb0cedc79">
+          <AttributeID>Day Of Week N</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="7839c1f5-58f0-4dbd-974f-45a2c2229093">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16a890aa-3a92-405d-a0ad-3bfef8f01061">
+          <AttributeID>Season</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8e4970c-ade2-49a3-b0c4-d396b422eddb">
+          <AttributeID>Working Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b051da5a-adff-4724-8082-17816c41eca2">
+          <AttributeID>Vacation</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c278531-9299-4d5f-a4a2-96cbbb12343f">
+          <AttributeID>Holiday</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77211e34-6ee1-4a4f-aaed-9e756d90ca0e">
+          <AttributeID>Before Holiday Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="99f0909b-f14f-4571-9392-57d0dab04368">
+          <AttributeID>After Holiday Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8832009b-f782-4f72-a418-1ff1d6696569">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="52817d7c-e576-48fb-a819-1fd6d295807b">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="124dc128-b2be-466b-b07c-151112267beb">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="f0ef10ea-b471-4489-a2fd-0f73965ba0b6">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="f0978355-a4aa-462c-9847-bbe1e9650a28">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5791e11d-fb34-4132-9772-6b9c5eba2fe8">
+      <ID>Marketing Campaign33</ID>
+      <Name>Marketing Campaign33</Name>
+      <DimensionID>Marketing Campaign</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2799b291-d69e-4fb0-8d5a-8927190263f1">
+          <AttributeID>Campaign ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57cb857a-2f79-437d-a363-a3b2d45f3293">
+          <AttributeID>Property ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b54b604e-1279-42f8-bdb7-2be5818fb118">
+          <AttributeID>Junk ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fbbf263-3bba-45e7-8cfa-0c2f641e6d78">
+          <AttributeID>Sale Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44042e0d-e3b5-41e5-8af2-5873a89f0aa6">
+          <AttributeID>Acquisition Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66dddcca-4017-459d-96e5-b3af6c6caf88">
+          <AttributeID>Campaign Start Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4aeb434f-2e61-4784-b58a-c5a4055197a5">
+          <AttributeID>Campaign End Date ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="0e2f3c48-606f-4380-bb54-1813f007bcae">
+      <ID>Campaign Methods</ID>
+      <Name>Campaign Methods</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b19387dd-be1d-43e1-b3b9-daafa5098aec">
+          <ID>Views</ID>
+          <Name>Total Views for given method</Name>
+          <Source dwd:design-time-name="b83d3f84-a857-4d83-aa2f-a348d8c93808">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c43e7fa-69a5-4393-a335-d902c55cd748">
+              <TableID>dbo_CampaignMethods</TableID>
+              <ColumnID>Views</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="841cbdd1-81bc-49ad-bde0-35fcc61e3b3e">
+          <ID>Campaign Methods Count</ID>
+          <Name>Campaign Methods Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ab11a378-85c1-4ec6-b225-401d8b7e2450">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="88c9ade9-c7be-490d-993b-dd1062dd5cd1">
+              <TableID>dbo_CampaignMethods</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c533d213-caf7-4f35-b907-ea0554f51d59">
+          <CubeDimensionID>Method</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4a36d5d9-9374-4959-8c7c-3867469db20c">
+              <AttributeID>Method ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d961ebb0-549b-4dad-9898-ebfc7a394e17">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="38e47620-7973-4856-9686-b2c42ddd65b1">
+                    <TableID>dbo_CampaignMethods</TableID>
+                    <ColumnID>Method_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2243c158-7515-474a-9f67-9889466f11d7">
+          <CubeDimensionID>Marketing Campaign33</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7039fc03-00f8-45f5-90a6-200889d7fb47">
+              <AttributeID>Campaign ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b742802b-6cf5-42e3-8d32-08ea98b2bbda">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adf0808b-0006-4614-ad85-173efb8a6616">
+                    <TableID>dbo_CampaignMethods</TableID>
+                    <ColumnID>Campaign_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="93056c06-76f2-4f39-ad16-47eb0e7500c4">
+          <CubeDimensionID>Sale Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a8b9843e-ccb7-411d-af11-4ee5b38e36f2">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Marketing Campaign33</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Sale Date</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="aca4f407-90e0-4d16-8948-31efa2b18bdc">
+          <CubeDimensionID>Acquisition Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7a348e71-a5e5-49ee-9a9a-769cacf6be01">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Marketing Campaign33</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Acquisition Date</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="86b64f59-b250-429a-9bf1-c668291c5488">
+          <CubeDimensionID>Campaign Start Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eb53f9a8-65c3-4f04-a90f-7795c2f2e098">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Marketing Campaign33</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Campaign Start Date ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="fe1693cf-3a36-4945-a24c-bc2311921919">
+          <CubeDimensionID>Campaign End Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b815dce8-bee2-428b-823c-5d64d3e16fdd">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Marketing Campaign33</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Campaign End Date ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="6602cd56-cc2f-4486-accf-e3fd1ec6b97a">
+      <ID>Marketing Campaign</ID>
+      <Name>Marketing Campaign</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="81b0358f-0ef9-4a6e-a0de-20713209e4ab">
+          <ID>Views Our Website</ID>
+          <Name>Total Views on our Website</Name>
+          <Source dwd:design-time-name="96713532-c40c-4c67-b0bc-8295d8ef815a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="78834793-0070-45b4-9642-8edb4df8497f">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Views_our_website</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0a34e38f-ab98-4810-a0de-25a01d5f8f80">
+          <ID>Views Competition Website</ID>
+          <Name>Total Views Competition Website</Name>
+          <Source dwd:design-time-name="9ced4a13-5a03-484e-bfe0-dbd33b399854">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1499576-7531-4edd-b645-e92958b9ae41">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Views_competition_website</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1b0b4862-5ffa-4c66-b8dc-7f8adba07617">
+          <ID>Views Social Media</ID>
+          <Name>Total Views Social Media</Name>
+          <Source dwd:design-time-name="a28cf61a-7ed6-4c61-b443-a61ba990165c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a65a17c3-a0bc-4be5-91ab-239565a0d45b">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Views_Social_Media</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0a25bb0c-41a1-4f84-8515-206de3b90c1d">
+          <ID>Money Spent Competition Website</ID>
+          <Name>Total cost Competition Website</Name>
+          <Source dwd:design-time-name="86836aa2-9ea8-4b04-9068-e491bedf9116">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="85b6a1e9-4ab5-47a1-a559-ea0d182e4b16">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Money_Spent_Competition_website</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ccc11c4e-1de1-45d7-afe0-9c7dfd42342e">
+          <ID>Money Spent Social Media</ID>
+          <Name>Total cost Social Media</Name>
+          <Source dwd:design-time-name="3f0f8151-b97a-477f-a392-741cdd5959c5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6728acab-0b06-4441-aa24-dc38d6010c30">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Money_Spent_Social_Media</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d27baaa4-3b81-4148-9744-2e5a8a80541e">
+          <ID>Physical Property Id</ID>
+          <Name>Physical Property Id</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <Source dwd:design-time-name="bbfd74e3-6d53-460f-b001-8d1cebe59077">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fe867b03-58e9-4413-9dbe-407fab56220a">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Property_ID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c008b337-e9aa-4ef2-954d-8616ca8252f6">
+          <ID>Marketing Campaign Count</ID>
+          <Name>Marketing Campaign Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e8988d8c-875b-4e9a-8b43-9c789259d8c8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="cea4f46b-9507-407b-ad69-31879d21e431">
+              <TableID>dbo_MarketingCampaign</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e680f87c-5d5f-4ebd-a611-98ae6fcc5690">
+          <ID>Was Sold</ID>
+          <Name>Was sold</Name>
+          <Source dwd:design-time-name="ff6a61d8-51c3-4756-8a58-d60fba9d7a1e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2093c7cd-b979-4eb6-afcc-6f7c91868ec4">
+              <TableID>dbo_MarketingCampaign</TableID>
+              <ColumnID>Was_sold</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="454acf27-9105-48d8-9c85-33118308b2a1">
+          <CubeDimensionID>Property</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="757bc076-e90a-4910-97c0-490fb70a4799">
+              <AttributeID>Property ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9fd10225-5ae0-4a20-afbd-088b5e18d479">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="93944127-703f-474b-978e-079d423dc4b5">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Property_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c5619287-1589-4597-ad61-3edfdfc9356d">
+          <CubeDimensionID>Junk</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69ad8ee8-10c9-4cea-b40a-0545660d8f0c">
+              <AttributeID>Junk ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f193f803-0298-4550-86e9-ce84e3958893">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e35dc539-ecda-4c52-872f-fa88af4adc2f">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Junk_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d64a75da-4fff-47c5-a625-1c0fe3769871">
+          <CubeDimensionID>Sale Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c4d1226c-0763-4820-9092-8c9c218f3f54">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="92e956f6-cb44-449d-95af-2d950f7d2796">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2c5d0002-c39d-4d75-b56e-6ed943e6600f">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Sale_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d1f42ed-9587-4439-868d-69aa3bb2c291">
+          <CubeDimensionID>Acquisition Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1c426cb0-8f58-4bc2-a535-c86eecf10704">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9b21411c-20e1-415f-8bd8-0991bbb4fb11">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="83382321-a6d3-46b7-87f2-75803b847d69">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Acquisition_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4494514a-3662-422b-9f2f-180aec1eb8c2">
+          <CubeDimensionID>Campaign Start Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="28df0ca5-e287-4656-954f-f417cf8bc00b">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee8707c7-9ecc-47bf-801d-f4dcc772e9af">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4fc89f9-a3f0-45e3-852b-36e8e41ba114">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Campaign_Start_Date_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e4f27a1f-18e2-4dba-aa30-e372f7c26953">
+          <CubeDimensionID>Campaign End Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="217fdc81-4265-4f72-a1d5-976300fc246e">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a3d9b9e5-b9e3-4bdc-a11e-6d500a018788">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eaf93a45-536b-46ff-a5f8-f42f0508df4c">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Campaign_End_Date_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="234d36fc-9629-4de6-91ae-1f9e1f850751">
+          <CubeDimensionID>Marketing Campaign33</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="38955a25-fcef-4347-b582-14a6303593a5">
+              <AttributeID>Campaign ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fea0a0db-0483-434c-a53b-d30db2445d14">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5068b00c-9b94-432b-ac15-93d34df97d1a">
+                    <TableID>dbo_MarketingCampaign</TableID>
+                    <ColumnID>Campaign_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="74f4cce1-b7e2-4607-9d6e-e3b93d84aafa">
+    <DataSourceViewID>DW MARKETING</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="0d2c6a15-d207-44d6-a21b-1deadb3713d1">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Total Views]
+ AS [Measures].[Total Views Competition Website] +
+[Measures].[Total Views Social Media] +
+[Measures].[Total Views on our Website], 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Total Cost]
+ AS [Measures].[Total Cost Social Media] +
+[Measures].[Total Views Competition Website], 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[ViewsPerDollar]
+ AS [Measures].[Total Views] / [Measures].[Total Cost], 
+VISIBLE = 1  ;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Total sales]
+ AS -1 * [Measures].[Was sold], 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Cost ratio Our webiste]
+ AS 0, 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Cost ratio Competition website]
+ AS [Measures].[Total Views Competition Website] / [Measures].[Total cost Competition Website], 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Cost ratio Social media]
+ AS [Measures].[Total Views Social Media] / [Measures].[Total cost Social Media], 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="858b6812-9424-4796-84ae-f7bae1684da4">
+      <ID>KPI</ID>
+      <Name>ViewsPerDollarGrowhRatio</Name>
+      <AssociatedMeasureGroupID>Marketing Campaign</AssociatedMeasureGroupID>
+      <Value>[Measures].[ViewsPerDollar]</Value>
+      <Goal>1.01 * ([Measures].[ViewsPerDollar], [Sale Date].[Date Hierarchy].CurrentMember.PrevMember)</Goal>
+      <Status>IIf (KPIVALUE( "ViewsPerDollarGrowhRatio" ) &gt; KPIGoal("ViewsPerDollarGrowhRatio"), 1, -1)</Status>
+      <Trend>IIf(
+  KPIValue("ViewsPerDollarGrowhRatio") &gt; 
+  (KPIValue("ViewsPerDollarGrowhRatio"), [Sale Date].[Date Hierarchy].CurrentMember.PrevMember),
+  1,  -- Current &gt; Previous → Improving (1)
+  -1  -- Current ≤ Previous → Declining (-1)
+)</Trend>
+      <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="349fa796-95b9-427c-9270-30bc17112f02">
+      <ID>KPI 1</ID>
+      <Name>TotalSpendingDecrease</Name>
+      <AssociatedMeasureGroupID>Marketing Campaign</AssociatedMeasureGroupID>
+      <Value>[Measures].[Total Cost]</Value>
+      <Goal>0.995 * ([Measures].[Total Cost], [Sale Date].[Date Hierarchy].CurrentMember.PrevMember)</Goal>
+      <Status>IIf (KPIVALUE( "TotalSpendingDecrease" ) &gt; KPIGoal("TotalSpendingDecrease"), 1, -1)</Status>
+      <Trend>IIf ( KPIValue( "TotalSpendingDecrease" ) &gt; ( KPIValue( "TotalSpendingDecrease" ), ParallelPeriod (
+[Sale Date].[Date Hierarchy].[Month], 1,
+[Sale Date].[Date Hierarchy].CurrentMember ) ), 1, -1)</Trend>
+      <TrendGraphic>Status Arrow - Descending</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>

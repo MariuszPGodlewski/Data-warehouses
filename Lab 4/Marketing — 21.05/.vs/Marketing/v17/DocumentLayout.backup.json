@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F68A654-A634-5434-4719-FDBCDA87181A}|..\\LoadETL\\LoadETL.dtproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Package1.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F68A654-A634-5434-4719-FDBCDA87181A}|..\\LoadETL\\LoadETL.dtproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Initial.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\DW MARKETING.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:DW MARKETING.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Dim Marketing Campaign.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:Dim Marketing Campaign.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Property.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:Property.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Method.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:Method.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\DW MARKETING.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:DW MARKETING.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Junk.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4EED2517-F464-B622-2D12-0AFB06166C22}|Marketing.dwproj|solutionrelative:Junk.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DW MARKETING.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\DW MARKETING.cube",
+              "RelativeDocumentMoniker": "DW MARKETING.cube",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\DW MARKETING.cube [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\DW MARKETING.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:34:16.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Property.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Property.dim",
+              "RelativeDocumentMoniker": "Property.dim",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\Property.dim [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\Property.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:42:58.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package1.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Package1.dtsx",
+              "RelativeDocumentMoniker": "..\\LoadETL\\Package1.dtsx",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Package1.dtsx [Design]",
+              "RelativeToolTip": "..\\LoadETL\\Package1.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-05-10T12:05:32.896Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Dim Date.dim",
+              "RelativeDocumentMoniker": "Dim Date.dim",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\Dim Date.dim [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:42:56.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Marketing Campaign.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Dim Marketing Campaign.dim",
+              "RelativeDocumentMoniker": "Dim Marketing Campaign.dim",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\Dim Marketing Campaign.dim [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\Dim Marketing Campaign.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:42:54.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Initial.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Initial.dtsx",
+              "RelativeDocumentMoniker": "..\\LoadETL\\Initial.dtsx",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\LoadETL\\Initial.dtsx [Design]",
+              "RelativeToolTip": "..\\LoadETL\\Initial.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-24T12:59:46.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Method.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Method.dim",
+              "RelativeDocumentMoniker": "Method.dim",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\Method.dim [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\Method.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:44:25.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DW MARKETING.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\DW MARKETING.dsv",
+              "RelativeDocumentMoniker": "DW MARKETING.dsv",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 11.05\\DW MARKETING.dsv [Design]",
+              "RelativeToolTip": "..\\Marketing \u2014 11.05\\DW MARKETING.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T12:12:12.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Junk.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing \u2014 21.05\\Junk.dim",
+              "RelativeDocumentMoniker": "Junk.dim",
+              "ToolTip": "C:\\Users\\mgodl\\OneDrive\\Pulpit\\Code\\Sem 4\\Data warehouses\\Lab 4\\Marketing\\Junk.dim [Design]",
+              "RelativeToolTip": "..\\Marketing\\Junk.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:43:20.696Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
